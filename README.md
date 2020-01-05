@@ -1,6 +1,6 @@
-# poltergeist-lambda
+# phantomjs-lambda
 
-Provides a version of Poltergeist that is compatible with AWS Lambda. This has
+Provides a version of phantomjs that is compatible with AWS Lambda. This has
 not been tested with other FaaS providers like Azure Functions.
 
 To use, simply fetch the latest version from 'releases' and unzip to
@@ -9,6 +9,6 @@ To use, simply fetch the latest version from 'releases' and unzip to
 # Example
 
 ```shell
-$> curl -o poltergeist_lambda.zip https://github.com/carlosonunez/poltergeist-lambda/raw/${VERSION}/phantomjs_lambda.zip
-$> unzip -d /opt poltergeist_lambda.zip
+$> curl -o phantomjs_lambda.zip https://github.com/carlosonunez/phantomjs-lambda/raw/${VERSION}/phantomjs_lambda.zip
+$> unzip -d /opt phantomjs_lambda.zip
 ```
